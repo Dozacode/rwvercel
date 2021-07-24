@@ -15,3 +15,5 @@
 [experimental]
   esbuild = false
   useEnvelop = false
+
+includeEnvironmentVariables = ['SUPABASE_URL', 'SUPABASE_KEY', 'SUPABASE_JWT_SECRET']
