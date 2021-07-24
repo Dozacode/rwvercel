@@ -15,7 +15,7 @@ const HomePage = () => {
         }}
       >
         <div className="m-auto text-center">
-          <Login />
+          <Supabase />
         </div>
       </div>
     </>
