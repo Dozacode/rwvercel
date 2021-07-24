@@ -8,6 +8,8 @@
 [web]
   port = 8910
   apiProxyPath = "/.redwood/functions"
+  includeEnvironmentVariables = ['SUPABASE_URL', 'SUPABASE_KEY', 'SUPABASE_JWT_SECRET']
+
 [api]
   port = 8911
 [browser]
@@ -16,4 +18,3 @@
   esbuild = false
   useEnvelop = false
 
-includeEnvironmentVariables = ['SUPABASE_URL', 'SUPABASE_KEY', 'SUPABASE_JWT_SECRET']
