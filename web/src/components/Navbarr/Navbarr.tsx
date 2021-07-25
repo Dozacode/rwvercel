@@ -30,8 +30,9 @@ const Navbarr = () => {
       <NavbarCollapse open={open}>
         <NavbarNav position="left">
           <NavbarItem>
-            <NavbarLink href="#"></NavbarLink>
-            <Link to={routes.home()}>Home</Link>
+            <NavbarLink href="#">
+              <Link to={routes.home()}>Home</Link>
+            </NavbarLink>
           </NavbarItem>
         </NavbarNav>
         <NavbarNav position="right">
