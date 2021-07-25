@@ -8,6 +8,7 @@ const SignupPage = () => {
     <>
       <Navbarr />
       <Signup />
+      <Supabase />
     </>
   )
 }
